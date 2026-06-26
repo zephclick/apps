@@ -4,9 +4,14 @@
       "categories": [
         "developer-tools"
       ],
+      "description": "The official welcome tour — a hosted demo that shows off every device UI primitive, live device↔companion interactions, and per-app settings. Open it on a connected device to walk through the Welcome home, a Components showcase that renders the whole primitive palette on one scrolling surface, a Playground of four device↔companion round-trips, and a Settings screen driven by this app's own configuration.",
       "icon": "lucide:sparkles",
       "id": "zeph-tour",
       "name": "Zeph Tour",
+      "screenshots": [
+        "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.0.0/welcome.png",
+        "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.0.0/components.png"
+      ],
       "tagline": "A guided tour of your Zeph",
       "versions": [
         {
