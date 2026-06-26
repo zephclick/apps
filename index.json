@@ -5,6 +5,43 @@
         "developer-tools"
       ],
       "description": "The official welcome tour — a hosted demo that shows off every device UI primitive, live device↔companion interactions, and per-app settings. Open it on a connected device to walk through the Welcome home, a Components showcase that renders the whole primitive palette on one scrolling surface, a Playground of four device↔companion round-trips, and a Settings screen driven by this app's own configuration.",
+      "exports": [
+        {
+          "description": "The home menu",
+          "kind": "face",
+          "name": "Welcome"
+        },
+        {
+          "description": "A multi-screen scrolling text page",
+          "kind": "face",
+          "name": "About"
+        },
+        {
+          "description": "Every UI primitive on one scrolling surface",
+          "kind": "face",
+          "name": "Components"
+        },
+        {
+          "description": "Four live device↔companion interactions",
+          "kind": "face",
+          "name": "Playground"
+        },
+        {
+          "description": "Config-driven greeting, accent + clock glance",
+          "kind": "face",
+          "name": "Settings"
+        },
+        {
+          "description": "Post a notification from the companion part",
+          "kind": "action",
+          "name": "Notify"
+        },
+        {
+          "description": "Round-trip a ping to the companion and back",
+          "kind": "action",
+          "name": "Ping"
+        }
+      ],
       "icon": "lucide:sparkles",
       "id": "zeph-tour",
       "name": "Zeph Tour",
