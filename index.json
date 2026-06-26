@@ -1,6 +1,7 @@
 {
   "apps": [
     {
+      "about": "## What's inside\n\nThe **Zeph Tour** is the official welcome app — a _hosted_ demo that renders its face on your Zeph while the companion drives it. It is the fastest way to see what a Zeph app can do, end to end.\n\n### Five screens to explore\n\n- **Welcome** — the home menu, your jumping-off point\n- **Components** — every UI primitive on one scrolling surface\n- **Playground** — four live `device ↔ companion` round-trips\n- **Settings** — a greeting, accent, and clock glance driven by this app's own config\n- **About** — a multi-screen scrolling text page\n\n### Try the round-trips\n\nFrom the Playground, fire a **Ping** and watch it return from the companion, or post a **Notify** that surfaces on the device. Edit a value on the _Settings_ screen and watch it sync live.\n\nBuilt with the open [Zeph app SDK](https://github.com/zephclick/zeph).",
       "categories": [
         "developer-tools"
       ],
