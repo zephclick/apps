@@ -1,0 +1,23 @@
+{
+  "apps": [
+    {
+      "categories": [
+        "developer-tools"
+      ],
+      "icon": "lucide:sparkles",
+      "id": "zeph-tour",
+      "name": "Zeph Tour",
+      "tagline": "A guided tour of your Zeph",
+      "versions": [
+        {
+          "artifact": "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.0.0/zeph-tour.zeph-app",
+          "caps": 27,
+          "min_wire": 0,
+          "semver": "1.0.0",
+          "sig": "eagSck0d1R40UgCUCpsbk32d0UUBduLc66pyPm1PLKVIotqLRw6SdjjxDXB+ZBU39LHoIQuFR2tqTlLWe60hAw=="
+        }
+      ]
+    }
+  ],
+  "schema": 1
+}
