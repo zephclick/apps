@@ -56,6 +56,7 @@
           "artifact": "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.1.0/zeph-tour.zeph-app",
           "caps": 27,
           "min_wire": 0,
+          "notes": "",
           "semver": "1.1.0",
           "sig": "SR+n593exqsn5xmSkDY10RvNE5EfwoWwkAJWupzFFXPxuOqfvRrFegCVjirVbxKnBgD2bMDfj0JLqt8c38BmDA=="
         }
