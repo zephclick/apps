@@ -47,18 +47,18 @@
       "id": "zeph-tour",
       "name": "Zeph Tour",
       "screenshots": [
-        "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.1.0/welcome.png",
-        "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.1.0/components.png"
+        "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.2.0/welcome.png",
+        "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.2.0/components.png"
       ],
       "tagline": "A guided tour of your Zeph",
       "versions": [
         {
-          "artifact": "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.1.0/zeph-tour.zeph-app",
-          "caps": 27,
+          "artifact": "https://github.com/zephclick/apps/releases/download/zeph-tour-v1.2.0/zeph-tour.zeph-app",
+          "caps": 539,
           "min_wire": 0,
           "notes": "",
-          "semver": "1.1.0",
-          "sig": "SR+n593exqsn5xmSkDY10RvNE5EfwoWwkAJWupzFFXPxuOqfvRrFegCVjirVbxKnBgD2bMDfj0JLqt8c38BmDA=="
+          "semver": "1.2.0",
+          "sig": "WjPL5MHpFf2kKHqBMmiUN+G9FpGcDu0hAuSSh3+ouwFOeIqNFBYQgZIq0EQapjgkGU7WWhrk3abNuc20t8f2Cg=="
         }
       ]
     }
