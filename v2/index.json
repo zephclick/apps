@@ -1,0 +1,128 @@
+{
+  "apps": [
+    {
+      "about": "Keep an eye on your Claude Code usage without breaking flow. Claude Monitor turns your 5-hour and 7-day limits, plus your active sessions, into a clean gauge on your Zeph, so one glance tells you where you stand.\n\n**Two faces, your pick**\n\n- **Circular:** ring gauges, elegant and compact.\n- **Linear:** bar gauges, easy to read across the room.\n\nBoth mark each active session with a dot.\n\n**Always honest**\n\n- **Live:** your real 5H and 7D percentages, each window's reset time, and when it last updated.\n- **Holding:** if the companion link drops, it keeps your last reading and dims it with a freshness note, never a stale number pretending to be fresh.\n- **Not synced:** a clear cue before the first sync, never a blank card or a fake zero.\n\nNothing to set up. Install it and it just works.",
+      "categories": [
+        "developer-tools"
+      ],
+      "description": "See how much of your Claude Code 5-hour and 7-day limits you've used, and how many sessions are running, at a glance on your Zeph. Clean ring or bar gauges, synced live from the companion, and always honest about how fresh the reading is.",
+      "exports": [
+        {
+          "description": "Ring gauges for the 5H / 7D limit windows, with session dots + freshness",
+          "kind": "face",
+          "name": "Circular"
+        },
+        {
+          "description": "Bar gauges for the 5H / 7D limit windows, with session dots + freshness",
+          "kind": "face",
+          "name": "Linear"
+        },
+        {
+          "description": "A swipe-to vertical page listing active sessions by name, state, and activity",
+          "kind": "page",
+          "name": "Sessions"
+        }
+      ],
+      "icon": "si:claude",
+      "id": "claude-monitor",
+      "name": "Claude Monitor",
+      "tagline": "Live Claude Code limits and sessions, at a glance",
+      "versions": [
+        {
+          "actions": [],
+          "artifact": "https://github.com/zephclick/apps/releases/download/v2-claude-monitor-v1.1.0/claude-monitor.zeph-app",
+          "caps": 59,
+          "companion_caps": 9175156,
+          "fs_scopes": [
+            "~/.claude/.zeph/**",
+            "~/.claude/sessions/**",
+            "~/.claude/projects/**",
+            "~/.claude/settings.json"
+          ],
+          "min_wire": 0,
+          "notes": "",
+          "requires_tools": [
+            {
+              "capture": true,
+              "tool": "claude-code"
+            }
+          ],
+          "semver": "1.1.0",
+          "sig": "sjPl0X3MkKElrZmOZPgooY/3eGqehHYq1GKZNu58PjPZ7yRuJBPZpyOdby7ZVk3WUkume+e5o9o776oxgLl0DA==",
+          "x_allowed_hosts": [
+            "api.anthropic.com",
+            "platform.claude.com"
+          ]
+        }
+      ]
+    },
+    {
+      "about": "## What's inside\n\nThe **Zeph Tour** is the official welcome app — a _hosted_ demo that renders its face on your Zeph while the companion drives it. It is the fastest way to see what a Zeph app can do, end to end.\n\n### Five screens to explore\n\n- **Welcome** — the home menu, your jumping-off point\n- **Components** — every UI primitive on one scrolling surface\n- **Playground** — four live `device ↔ companion` round-trips\n- **Settings** — a greeting, accent, and clock glance driven by this app's own config\n- **About** — a multi-screen scrolling text page\n\n### Try the round-trips\n\nFrom the Playground, fire a **Ping** and watch it return from the companion, or post a **Notify** that surfaces on the device. Edit a value on the _Settings_ screen and watch it sync live.\n\nBuilt with the open [Zeph app SDK](https://github.com/zephclick/zeph).",
+      "categories": [
+        "developer-tools"
+      ],
+      "description": "The official welcome tour — a hosted demo that shows off every device UI primitive, live device↔companion interactions, and per-app settings. Open it on a connected device to walk through the Welcome home, a Components showcase that renders the whole primitive palette on one scrolling surface, a Playground of four device↔companion round-trips, and a Settings screen driven by this app's own configuration.",
+      "exports": [
+        {
+          "description": "The home menu",
+          "kind": "face",
+          "name": "Welcome"
+        },
+        {
+          "description": "A multi-screen scrolling text page",
+          "kind": "face",
+          "name": "About"
+        },
+        {
+          "description": "Every UI primitive on one scrolling surface",
+          "kind": "face",
+          "name": "Components"
+        },
+        {
+          "description": "Four live device↔companion interactions",
+          "kind": "face",
+          "name": "Playground"
+        },
+        {
+          "description": "Config-driven greeting, accent + clock glance",
+          "kind": "face",
+          "name": "Settings"
+        },
+        {
+          "description": "Post a notification from the companion part",
+          "kind": "action",
+          "name": "Notify"
+        },
+        {
+          "description": "Round-trip a ping to the companion and back",
+          "kind": "action",
+          "name": "Ping"
+        }
+      ],
+      "icon": "lucide:sparkles",
+      "id": "zeph-tour",
+      "name": "Zeph Tour",
+      "screenshots": [
+        "https://github.com/zephclick/apps/releases/download/v2-zeph-tour-v1.2.0/welcome.png",
+        "https://github.com/zephclick/apps/releases/download/v2-zeph-tour-v1.2.0/components.png"
+      ],
+      "tagline": "A guided tour of your Zeph",
+      "versions": [
+        {
+          "actions": [],
+          "artifact": "https://github.com/zephclick/apps/releases/download/v2-zeph-tour-v1.2.0/zeph-tour.zeph-app",
+          "caps": 539,
+          "companion_caps": 8219,
+          "fs_scopes": [],
+          "min_wire": 0,
+          "notes": "",
+          "requires_tools": [],
+          "semver": "1.2.0",
+          "sig": "TycFucBQmxzRzM1Ug4gfoY3uf9wsqbrGGM+u5WO+z+PcsyJBiwWxXr++FVLd4xTPRdG7YMtvWcRP0If3h9TbDg==",
+          "x_allowed_hosts": []
+        }
+      ]
+    }
+  ],
+  "schema": 1
+}
