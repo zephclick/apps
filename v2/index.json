@@ -124,5 +124,33 @@
       ]
     }
   ],
+  "featured": {
+    "first_day": {
+      "id": "zeph-help",
+      "kicker": "Skill · A good first one",
+      "line": "It learns how agents, spaces, the Feed and settings work, so it changes them for you without guessing.",
+      "title": "Teach your agent its way around Zeph"
+    },
+    "hero": [
+      {
+        "id": "claude-monitor",
+        "kicker": "App",
+        "line": "See how much of the five-hour and seven-day limits you have used, and how many sessions are running.",
+        "title": "Your Claude Code limits, on your board"
+      },
+      {
+        "id": "zeph-device",
+        "kicker": "Skill",
+        "line": "Your agent reads the board, shows what it is working on and hears the buttons you press.",
+        "title": "Let your agent show things on your board"
+      },
+      {
+        "id": "zeph-tour",
+        "kicker": "App",
+        "line": "A tour of every kind of screen a board can draw, with a few round trips to your computer.",
+        "title": "See what a board can do"
+      }
+    ]
+  },
   "schema": 1
 }
